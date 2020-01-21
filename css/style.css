@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family:'bold';
+    src: url('/font/HelveticaNeueLTStd-Bd.otf');
+}
 html{
     scroll-behavior: smooth;
 }
@@ -15,10 +18,11 @@ body {
     padding: 0 !important;
     box-shadow: 0px 0px 10px black;
     background: #ffd44b !important;
+    font-family: 'bold';
 }
 .nav-link{
     height: 100%;
-    color: white !important;
+    color: rgb(74, 120, 80) !important;
 }
 .active{
     color: black !important;
